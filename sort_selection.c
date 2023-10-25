@@ -4,10 +4,10 @@ int main()
 {
     int i,j,min,temp;
     int a[6]={9,3,5,6,1,4};
-    for(i=1;i<6;i++)
+    for(i=0;i<5;i++)
     {
         min = i;
-        for(j=0;j<6;j++)
+        for(j=i+1;j<6;j++)
         {
             if(a[j] < a[min])
             {
