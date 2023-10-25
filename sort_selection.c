@@ -9,7 +9,7 @@ int main()
         min = i;
         for(j=0;j<6;j++)
         {
-            if(a[j] > a[min])
+            if(a[j] < a[min])
             {
                 min = j;
             }
